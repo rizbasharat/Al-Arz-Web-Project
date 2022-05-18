@@ -8,6 +8,7 @@ const Nav = () =>
       { name: "جڑ تلاش",link:'/root' },
       { name: "گُذَشْتَہ لفظ",link:'history' },
       { name: "پسندیدہ لفظ",link:'/favourite' },
+      { name: "Admin ",link:'/admin' },
    ]
    return (
       <nav className="flex items-center justify-between pt-5">
