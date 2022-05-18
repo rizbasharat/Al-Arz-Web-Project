@@ -16,13 +16,15 @@ function App ()
 
   </form>
   <div style={{display:'flex',width:'100vw',justifyContent:'center'}}>
+  <Link to={`editword`}>
   <button style={{
     zIndex:'999',
     padding:'1vh',
     width:'10vw',
     background:'white',
-    marginLeft:'45vw'
-  }}>Edit Word</button>
+    marginTop:'3%',
+    marginLeft:'10px'
+  }}>Edit Words </button></Link>
         </div>
 </div>
     </section>    

@@ -23,7 +23,7 @@ ReactDOM.render(
       <Route path="search" element={<Search />} />
       <Route path="history" element={<History />} />
       <Route path="admin" element={<Admin />} />
-    </Routes>
+        </Routes>
   </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
