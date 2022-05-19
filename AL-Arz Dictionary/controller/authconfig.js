@@ -19,10 +19,9 @@ exports.signup = (req, res) => {
 exports.signup = (req, res) => {
 
   const token = jwt.sign({email: req.body.email}, config.secret)
-
-  const user = new User({
-    username: req.body.username,
-    email: req.body.email,
-    password: bcrypt.hashSync(req.body.password, 8),
-    confirmationCode: token
-  });
+}
+  module.exports = {
+    secret: "bezkoder-secret-key",
+    user: "mediumtutorial2021@gmail.com", 
+    pass: "medium2021t", 
+  };
